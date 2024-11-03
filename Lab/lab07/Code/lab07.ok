@@ -1,0 +1,21 @@
+{
+    "name": "Special Method, Linked List and Tree",
+    "endpoint": "lab07",
+    "src": [
+        "lab07.py"
+    ],
+    "tests": {
+        "tests/*.py": "ok_test",
+        "lab07.py:Complex": "doctest",
+        "lab07.py:store_digits": "doctest",
+        "lab07.py:make_to_string": "doctest",
+        "lab07.py:cumulative_mul": "doctest",
+        "lab07.py:prune_small": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

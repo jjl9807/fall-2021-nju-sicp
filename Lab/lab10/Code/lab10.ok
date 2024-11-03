@@ -1,0 +1,26 @@
+{
+    "name": "Scheme List, Tail Recursion and Macro",
+    "endpoint": "lab10",
+    "src": [
+        "lab10.scm"
+    ],
+    "tests": {
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "filter-stream",
+        "slice",
+        "factorials",
+        "fibs",
+        "exp",
+        "nondecrease",
+        "my-cons-stream",
+        "primes"
+    ],
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

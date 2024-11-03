@@ -1,0 +1,20 @@
+{
+    "name": "Nonlocal and Generators",
+    "endpoint": "hw05",
+    "src": [
+        "hw05.py"
+    ],
+    "tests": {
+        "hw05.py:make_withdraw": "doctest",
+        "hw05.py:make_joint": "doctest",
+        "hw05.py:permutations": "doctest",
+        "hw05.py:lookups": "doctest",
+        "hw05.py:remainders_generator": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

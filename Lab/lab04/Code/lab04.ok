@@ -1,0 +1,23 @@
+{
+    "name": "Data Abstraction, Trees, and Mutable Values",
+    "endpoint": "lab04",
+    "src": [
+        "lab04.py"
+    ],
+    "tests": {
+        "lab04.py:planet": "doctest",
+        "lab04.py:size": "doctest",
+        "lab04.py:total_weight": "doctest",
+        "lab04.py:balanced": "doctest",
+        "lab04.py:totals_tree": "doctest",
+        "lab04.py:preorder": "doctest",
+        "lab04.py:has_path": "doctest",
+        "lab04.py:insert_items": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

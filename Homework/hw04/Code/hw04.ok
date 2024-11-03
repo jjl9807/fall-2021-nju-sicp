@@ -1,0 +1,26 @@
+{
+    "name": "Data Abstraction and Trees",
+    "endpoint": "hw04",
+    "src": [
+        "hw04.py"
+    ],
+    "tests": {
+        "hw04.py:couple": "doctest",
+        "hw04.py:distance": "doctest",
+        "hw04.py:closer_city": "doctest",
+        "hw04.py:nut_finder": "doctest",
+        "hw04.py:sprout_leaves": "doctest",
+        "hw04.py:add_trees": "doctest",
+        "hw04.py:bigpath": "doctest",
+        "hw04.py:bigger_path": "doctest",
+        "hw04.py:count_leaves": "doctest",
+        "hw04.py:label_sum": "doctest",
+        "hw04.py:preorder": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

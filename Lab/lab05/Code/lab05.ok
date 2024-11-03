@@ -1,0 +1,21 @@
+{
+    "name": "Nonlocal, Iterators, and Generators",
+    "endpoint": "lab05",
+    "src": [
+        "lab05.py"
+    ],
+    "tests": {
+        "tests/*.py": "ok_test",
+        "lab05.py:count": "doctest",
+        "lab05.py:repeated": "doctest",
+        "lab05.py:scale": "doctest",
+        "lab05.py:merge": "doctest",
+        "lab05.py:hailstone": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Higher-Order Functions, Lambda Expressions",
+    "endpoint": "lab02",
+    "src": [
+        "lab02.py"
+    ],
+    "tests": {
+        "lab02.py:lambda_curry2": "doctest",
+        "lab02.py:count_cond": "doctest",
+        "lab02.py:composite_identity": "doctest",
+        "lab02.py:cycle": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "SQL II",
+    "endpoint": "lab11",
+    "src": [
+        "lab11.sql"
+    ],
+    "tests": {
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "bluedog",
+        "smallest_int_having",
+        "matchmaker",
+        "sevens",
+        "avg_difference"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

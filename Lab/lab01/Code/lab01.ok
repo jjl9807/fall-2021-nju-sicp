@@ -1,0 +1,20 @@
+{
+    "name": "Variables & Functions, Control",
+    "endpoint": "lab01",
+    "src": [
+        "lab01.py"
+    ],
+    "tests": {
+        "lab01.py:both_odd": "doctest",
+        "lab01.py:factorial": "doctest",
+        "lab01.py:is_triangle": "doctest",
+        "lab01.py:number_of_six": "doctest",
+        "lab01.py:max_digit": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

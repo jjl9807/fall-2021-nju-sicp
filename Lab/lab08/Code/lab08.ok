@@ -1,0 +1,24 @@
+{
+    "name": "Scheme",
+    "endpoint": "lab08",
+    "src": [
+        "lab08.scm"
+    ],
+    "tests": {
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "combinations",
+        "over-or-under",
+        "make-adder",
+        "composed",
+        "gcd",
+        "ordered"
+    ],
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

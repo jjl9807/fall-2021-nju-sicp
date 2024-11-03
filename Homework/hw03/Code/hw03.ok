@@ -1,0 +1,24 @@
+{
+    "name": "Recursion and Tree Recursion",
+    "endpoint": "hw03",
+    "src": [
+        "hw03.py"
+    ],
+    "tests": {
+        "hw03.py:number_of_six": "doctest",
+        "hw03.py:pingpong": "doctest",
+        "hw03.py:missing_digits": "doctest",
+        "hw03.py:count_change": "doctest",
+        "hw03.py:move_stack": "doctest",
+        "hw03.py:multiadder": "doctest",
+        "hw03.py:make_anonymous_factorial": "doctest",
+        "hw03.py:my_fib": "doctest",
+        "hw03.py:my_number_of_six": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

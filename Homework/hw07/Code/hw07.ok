@@ -1,0 +1,26 @@
+{
+    "name": "Special Method, Linked List and Tree",
+    "endpoint": "hw07",
+    "src": [
+        "hw07.py"
+    ],
+    "tests": {
+        "hw07.py:Polynomial": "doctest",
+        "hw07.py:remove_duplicates": "doctest",
+        "hw07.py:deep_map_mut": "doctest",
+        "hw07.py:reverse": "doctest",
+        "hw07.py:Tree.__eq__": "doctest",
+        "hw07.py:generate_paths": "doctest",
+        "hw07.py:funcs": "doctest",
+        "hw07.py:count_coins_tree": "doctest",
+        "hw07.py:balance_tree": "doctest",
+        "hw07.py:has_cycle": "doctest",
+        "hw07.py:install_camera": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

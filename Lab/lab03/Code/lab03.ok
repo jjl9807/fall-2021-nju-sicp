@@ -1,0 +1,20 @@
+{
+    "name": "Recursion and Tree Recursion",
+    "endpoint": "lab03",
+    "src": [
+        "lab03.py"
+    ],
+    "tests": {
+        "lab03.py:skip_add": "doctest",
+        "lab03.py:summation": "doctest",
+        "lab03.py:gcd": "doctest",
+        "lab03.py:paths": "doctest",
+        "lab03.py:max_subseq": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

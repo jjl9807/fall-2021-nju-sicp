@@ -1,0 +1,19 @@
+{
+    "name": "OOP and Inheritance",
+    "endpoint": "hw06",
+    "src": [
+        "hw06.py"
+    ],
+    "tests": {
+        "hw06.py:VendingMachine": "doctest",
+        "hw06.py:Cat": "doctest",
+        "hw06.py:NoisyCat": "doctest",
+        "hw06.py:Fib": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

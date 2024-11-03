@@ -1,0 +1,26 @@
+{
+    "name": "Scheme List, Tail Recursion and Macro",
+    "endpoint": "hw09",
+    "src": [
+        "hw09.scm"
+    ],
+    "tests": {
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "make-change",
+        "find",
+        "find-nest",
+        "def",
+        "k-curry",
+        "let",
+        "find-in-tree",
+        "infix"
+    ],
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Higher Order Functions",
+    "endpoint": "hw02",
+    "src": [
+        "hw02.py"
+    ],
+    "tests": {
+        "hw02.py:compose": "doctest",
+        "hw02.py:product": "doctest",
+        "hw02.py:accumulate": "doctest",
+        "hw02.py:summation_using_accumulate": "doctest",
+        "hw02.py:product_using_accumulate": "doctest",
+        "hw02.py:make_repeater": "doctest",
+        "hw02.py:protected_secret": "doctest",
+        "hw02.py:church_to_int": "doctest",
+        "hw02.py:add_church": "doctest",
+        "hw02.py:mul_church": "doctest",
+        "hw02.py:pow_church": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}
