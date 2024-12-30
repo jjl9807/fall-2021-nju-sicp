@@ -14,7 +14,7 @@
 
 ### Course Information
 
-- Instructors: [Xinyu Feng(冯新宇) ](https://cs.nju.edu.cn/xyfeng/), [Yue Li(李樾)](https://yuelee.bitbucket.io/)
+- Instructors: [Xinyu Feng(冯新宇) ](https://cs.nju.edu.cn/xyfeng/), [Yue Li(李樾)](https://cs.nju.edu.cn/yueli/)
 - Textbooks and References:
   - Textbooks: [Composing Programs](https://composingprograms.com/)
   - Courseware (lecture notes, homework and projects) taken from Berkeley CS61a ([Spring 2020](https://inst.eecs.berkeley.edu/~cs61a/sp20/) and [Fall 2019](https://inst.eecs.berkeley.edu/~cs61a/fa19/))
